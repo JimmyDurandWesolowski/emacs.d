@@ -1,0 +1,12 @@
+*~
+.emacs.desktop*
+specific.el
+auto-save-list/
+custom-site-lisp/
+elim-lisp/
+elim/
+elpa/
+emms/
+lisp/
+url/
+var
