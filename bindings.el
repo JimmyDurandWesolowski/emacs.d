@@ -100,6 +100,8 @@
 (define-key binding-minor-mode-map (kbd "C-c s p") 'cscope-prev-symbol)
 (define-key binding-minor-mode-map (kbd "C-c s n") 'cscope-next-symbol)
 
+(define-key binding-minor-mode-map (kbd "C-c t") 'egg-file-toggle-blame-mode)
+
 
 (define-minor-mode binding-minor-mode
   "A minor mode so that my key settings override annoying major modes."
