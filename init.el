@@ -41,7 +41,7 @@
  '(tool-bar-mode nil))
 
 (load "~/.emacs.d/customize.el")
-(load "~/.emacs.d/bindings.el")
 (load "~/.emacs.d/elpa-modes.el")
 (load "~/.emacs.d/custom.el")
+(load "~/.emacs.d/bindings.el")
 (when (file-exists-p "~/.emacs.d/specific.el") (load "~/.emacs.d/specific.el"))
